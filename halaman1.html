@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form</title>
+    <title>Form2</title>
 </head>
 <body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="Username">Username </label></td>
+                <td><input type="text" id="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password </label></td>
+                <td><input type="text" id="Password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" id="Pria" name="gender"><label for="Pria">Pria</label>
+                <input type="radio" id="Wanita" name="gender"><label for="Wanita">Wanita</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
+                <input type="checkbox" id="Membaca"><label for="Membaca">Membaca</label>
+                <input type="checkbox" id="Joging"><label for="Joging">Joging</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><select name="" id="">
+                    <option value="">Jember</option>
+                    <option value="">Surabaya</option>
+                    <option value="">Sidoarjo</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="" id="" cols="30" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><button type="button">Submit</button></center></td>
+            </tr>
+        </table>
 
-    <label for="Username">Username </label>
-    <input type="text" id="Username">
-    <br>
-    <label for="Password">Password </label>
-    <input type="text" id="Password">
-    <br>
-    <input type="radio" id="Pria" name="gender"><label for="Pria">Pria</label>
-    <input type="radio" id="Wanita" name="gender"><label for="Wanita">Wanita</label>
-    <br>
-    <input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
-    <input type="checkbox" id="Membaca"><label for="Membaca">Membaca</label>
-    <input type="checkbox" id="Joging"><label for="Joging">Joging</label>
-    <br>
-    <button>Submit</button>
+    </form>
 </body>
 </html>
