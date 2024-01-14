@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Table merging</title>
+    <title>Form</title>
 </head>
 <body>
-    
-    <table border="1" cellspacing="0" cellpadding="5">
-        <tr>
-            <td>1,1</td>
-            <td>1,2</td>
-            <td>1,3</td>
-            <td>1,4</td>
-        </tr>
-        <tr>
-            <td>2,1</td>
-            <td colspan="2" rowspan="2">Sifa'</td>
-            <td>3,4</td>
-        </tr>
-        <tr>
-            <td>3,1</td>
-            <td>3,4</td>
-        </tr>
-        <tr>
-            <td>4,1</td>
-            <td>4,2</td>
-            <td>4,3</td>
-            <td>4,4</td>
-        </tr>
-    </table>
+
+    <label for="Username">Username </label>
+    <input type="text" id="Username">
+    <br>
+    <label for="Password">Password </label>
+    <input type="text" id="Password">
+    <br>
+    <input type="radio" id="Pria" name="gender"><label for="Pria">Pria</label>
+    <input type="radio" id="Wanita" name="gender"><label for="Wanita">Wanita</label>
+    <br>
+    <input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
+    <input type="checkbox" id="Membaca"><label for="Membaca">Membaca</label>
+    <input type="checkbox" id="Joging"><label for="Joging">Joging</label>
+    <br>
+    <button>Submit</button>
 </body>
 </html>
